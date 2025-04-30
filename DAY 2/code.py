@@ -35,3 +35,17 @@
     
 # print("4")
 
+
+# homework -> today
+
+# will give u a number a = ?
+# only one output should be printed
+# fizz | buzz | puzz | fizzbuzz | buzzpuzz | fizzpuzz | fizzbuzzpuzz | none
+# if its divisilbe by 2 print "fizz"
+# if its divisible by 3 print "buzz"
+# if its divisible by 5 print "puzz"
+# if its divisible by 2 and 3 print "fizzbuzz"
+# if its divisible by 3 and 5 print "buzzpuzz"
+# if its divisible by 2 and 5 print "fizzpuzz"
+# if its divislbe by 2, 3 and 5 print "fizzbuzzpuzz"
+# its not divisible by neither "None"
