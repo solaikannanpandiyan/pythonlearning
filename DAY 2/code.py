@@ -20,14 +20,14 @@
 # while
 # for
 
-a = 100
+# a = 100
 
-if a < 100: 
-    print("a is lesser than 100")
-elif a < 500:
-    print("a is lesser than 500")
-else:
-    print("a is greater than 500") 
+# will give u a number a = ?
+# if its divisible by 3 print "fizz"
+# if its divisible by 5 print "buzz"
+# if its divisible by 3 and 5 print "fizzbuzz"
+# its not divisible by either "None"
+
         
 # if a != b: # True or False
 #     print("1")
