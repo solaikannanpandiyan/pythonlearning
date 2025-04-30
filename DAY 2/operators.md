@@ -78,5 +78,33 @@ Compare memory locations:
 | `is`     | Same object          | `a is b`       |
 | `is not` | Not the same object  | `a is not b`   |
 
-These operators form the backbone of logical and mathematical operations in Python programming.
+---
+
+# Truthy and Falsy Values in Python
+
+In Python, every value has an inherent truth value (either **truthy** or **falsy**) when evaluated in a boolean context like an `if` statement.
+
+## ✅ Truthy Values
+Evaluate to `True`:
+
+- **Non-zero numbers**: `1`, `-1`, `3.14`, etc.
+- **Non-empty sequences/collections**:
+  - Strings: `'hello'`, `'0'`
+  - Lists: `[0]`, `[None]`
+  - Tuples: `(0,)`, `('a',)`
+  - Sets/Dictionaries: `{1}`, `{'a': 1}`
+- **Boolean**: `True`
+- **Custom objects** (unless `__bool__` or `__len__` returns `False`)
+
+## ❌ Falsy Values
+Evaluate to `False`:
+
+- `None`
+- `False`
+- Zero of any numeric type: `0`, `0.0`, `0j`
+- Empty sequences/collections:
+  - `''`, `[]`, `()`, `{}`, `set()`
+- Custom objects where `__bool__()` or `__len__()` returns `False`
+
+These values are essential when using conditions in control flow, comprehensions, and logical expressions.
 
